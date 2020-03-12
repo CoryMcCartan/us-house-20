@@ -67,6 +67,9 @@ appr_url = "https://projects.fivethirtyeight.com/trump-approval-data/approval_po
 polls = load_polls(start_date, election_day, write=T) %>%
     filter(date <= from_date) %>%
     drop_na
+polls %>%
+    select(date, firm, dem) %>%
+    write_csv("docs/polls.csv")
 # pres. approval
 pres_appr = suppressMessages(read_csv(appr_url)) %>%
     transmute(approval = approve/100,
