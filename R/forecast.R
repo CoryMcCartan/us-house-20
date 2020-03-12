@@ -132,10 +132,6 @@ intent_fit = sampling(intent_model, data=intent_d, chains=opt$chains, iter=opt$i
 
 draws = recover_types(intent_fit) %>%
     spread_draws(natl_dem[week])
-ggplot(draws, aes(week, natl_dem)) +
-    geom_point(aes(week, dem, shape=type_lv, color=type_lv), data=polls) +
-    stat_lineribbon(alpha=0.3, fill="#666666") +
-    theme_minimal()
 
 firms = recover_types(intent_fit, polls) %>%
     spread_draws(house_effects[firm]) %>%
@@ -186,6 +182,7 @@ entry = tibble(
 entry = mutate_if(entry, is.numeric, ~ round(., 4))
 
 output = append(as.list(entry), list(
+    time = Sys.time(),
     n_polls = nrow(polls),
     gain = entry$s_exp - current_seats,
     firm_effects = as.list(firms),
