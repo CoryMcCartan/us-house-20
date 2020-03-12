@@ -1,4 +1,4 @@
-Rscript forecast.R
+Rscript R/forecast.R
 git add .
 git commit -m "Run."
 git push
