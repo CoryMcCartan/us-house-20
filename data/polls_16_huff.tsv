@@ -1,0 +1,126 @@
+Democrat	Republican	Other	Undecided	poll_slug	survey_house	start_date	end_date	question_text	sample_subpopulation	observations	margin_of_error	mode	partisanship	partisan_affiliation
+45.0	42.0	2.0	11.0	yougov-economist-26805	YouGov/Economist	2016-11-04	2016-11-07		Likely Voters	3655		Internet	Nonpartisan	None
+45.0	48.0	1.0	7.0	bloomberg-selzer-26771	Bloomberg/Selzer	2016-11-04	2016-11-06		Likely Voters	799	3.5	Live Phone	Nonpartisan	None
+45.0	46.0	1.0	7.0	fox-26784	FOX	2016-11-03	2016-11-06		Likely Voters	1295	2.5	Live Phone	Nonpartisan	None
+48.0	43.0	7.0	2.0	nbc-surveymonkey-26770	NBC/SurveyMonkey	2016-10-31	2016-11-06		Likely Voters	70194	1.0	Internet	Nonpartisan	None
+45.0	46.0	2.0	7.0	franklin-pierce-rkm-boston-herald-26775	Franklin Pierce/RKM/Boston Herald	2016-11-01	2016-11-05		Likely Voters	1009	3.1	Live Phone	Nonpartisan	None
+48.0	47.0	3.0	2.0	mcclatchy-marist-26734	McClatchy/Marist	2016-11-01	2016-11-03	If next week (November)'s election for Congress were held today, which party's candidate are you more likely to vote for in your district:	Likely Voters	940	3.2	Live Phone	Nonpartisan	None
+42.0	41.0	4.0	14.0	ipsos-reuters-26679	Ipsos/Reuters	2016-10-29	2016-11-02	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1858	2.6	Internet	Nonpartisan	None
+45.0	40.0	3.0	13.0	yougov-economist-26618	YouGov/Economist	2016-10-30	2016-11-01		Registered Voters	1388	3.0	Internet	Nonpartisan	None
+44.0	43.0		13.0	politico-morning-consult-26556	Politico/Morning Consult	2016-10-29	2016-10-30		Likely Voters	1772	2.0	Internet	Nonpartisan	None
+43.0	39.0	2.0	16.0	yougov-economist-26504	YouGov/Economist	2016-10-22	2016-10-26		Registered Voters	1376	3.1	Internet	Nonpartisan	None
+47.0	45.0	1.0	8.0	fox-26488	FOX	2016-10-22	2016-10-25		Likely Voters	1221	2.5	Live Phone	Nonpartisan	None
+37.0	38.0	2.0	23.0	gqr-d-democracy-corps-26432	GQR (D-Democracy Corps)	2016-10-21	2016-10-24		Likely Voters	900	3.27	Live Phone	Sponsor	Dem
+44.0	39.0	4.0	13.0	ipsos-reuters-26445	Ipsos/Reuters	2016-10-20	2016-10-24	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1170	2.9	Internet	Nonpartisan	None
+50.0	47.0	1.0	3.0	cnn-26491	CNN	2016-10-20	2016-10-23		Likely Voters	779	3.5	Live Phone	Nonpartisan	None
+42.0	39.0		18.0	politico-morning-consult-26342	Politico/Morning Consult	2016-10-19	2016-10-20		Likely Voters	1395	3.0	Internet	Nonpartisan	None
+43.0	38.0	3.0	16.0	yougov-economist-26280	YouGov/Economist	2016-10-15	2016-10-18		Registered Voters	1085		Internet	Nonpartisan	None
+47.0	43.0	1.0	8.0	bloomberg-selzer-26261	Bloomberg/Selzer	2016-10-14	2016-10-17		Adults	1328	3.1	Live Phone	Nonpartisan	None
+43.0	39.0	4.0	15.0	ipsos-reuters-26266	Ipsos/Reuters	2016-10-13	2016-10-17	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1190	3.2	Internet	Nonpartisan	None
+52.0	40.0	1.0	6.0	public-religion-research-institute-the-atlantic-26263	Public Religion Research Institute/The Atlantic	2016-10-12	2016-10-17		Likely Voters	692	4.4	Live Phone	Nonpartisan	None
+45.0	38.0		18.0	politico-morning-consult-26194	Politico/Morning Consult	2016-10-13	2016-10-15		Likely Voters	1737	2.0	Internet	Nonpartisan	None
+47.0	44.0	3.0	6.0	abc-post-26184	ABC/Post	2016-10-10	2016-10-13		Likely Voters	740	4.0	Live Phone	Nonpartisan	None
+47.0	42.0		11.0	gwu-battleground-26193	GWU/Battleground	2016-10-08	2016-10-13		Likely Voters	1000	3.1	Live Phone	Nonpartisan	None
+48.0	42.0	1.0	9.0	fox-26165	FOX	2016-10-10	2016-10-12		Likely Voters	917	3.0	Live Phone	Nonpartisan	None
+44.0	39.0		17.0	politico-morning-consult-26084	Politico/Morning Consult	2016-10-10	2016-10-10		Likely Voters	1757	3.0	Internet	Nonpartisan	None
+46.0	36.0	3.0	15.0	ipsos-reuters-26141	Ipsos/Reuters	2016-10-06	2016-10-10	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	2363	2.3	Internet	Nonpartisan	None
+42.0	38.0	3.0	17.0	pew-26176	Pew	2016-09-27	2016-10-10		Registered Voters	3596		Live Phone	Nonpartisan	None
+44.0	41.0		16.0	politico-morning-consult-26013	Politico/Morning Consult	2016-10-08	2016-10-08		Likely Voters	1390	3.0	Internet	Nonpartisan	None
+42.0	39.0	3.0	17.0	yougov-economist-26019	YouGov/Economist	2016-10-07	2016-10-08		Registered Voters	1133		Internet	Nonpartisan	None
+43.0	37.0	2.0	17.0	yougov-economist-25893	YouGov/Economist	2016-10-01	2016-10-03		Registered Voters	911	3.9	Internet	Nonpartisan	None
+42.0	38.0	4.0	16.0	ipsos-reuters-25960	Ipsos/Reuters	2016-09-29	2016-10-03	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1239	3.2	Internet	Nonpartisan	None
+46.0	37.0		17.0	morning-consult-25827	Morning Consult	2016-09-30	2016-10-02		Likely Voters	1778	2.0	Internet	Nonpartisan	None
+44.0	43.0	1.0	12.0	fox-25819	FOX	2016-09-27	2016-09-29	If the election for Congress were held today, would you vote for the Democratic candidate in your district or the Republican candidate in your district?	Likely Voters	911	3.0	Live Phone	Nonpartisan	None
+46.0	41.0		13.0	ppp-d-25804	PPP (D)	2016-09-27	2016-09-28	Generally speaking if there was an election for Congress today, would you vote for the Democratic or Republican candidate from your district?	Likely Voters	933	3.2	IVR/Online	Pollster	Dem
+41.0	36.0		23.0	echelon-insights-r-25816	Echelon Insights (R)	2016-09-26	2016-09-27	This November, do you plan to vote for the Democrat or Republican candidate in your Congressional district?	Registered Voters	1833		Internet	Pollster	Rep
+46.0	38.0		16.0	morning-consult-25787	Morning Consult	2016-09-26	2016-09-27	If the election for for U.S. Congress in your district was held today, which one of the following candidates are you most likely to vote for?	Likely Voters	1253	3.0	Internet	Nonpartisan	None
+42.0	36.0	4.0	18.0	ipsos-reuters-25788	Ipsos/Reuters	2016-09-22	2016-09-26	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1041	3.5	Internet	Nonpartisan	None
+43.0	38.0	2.0	16.0	yougov-economist-25649	YouGov/Economist	2016-09-22	2016-09-24		Adults	1300	3.9	Internet	Nonpartisan	None
+43.0	40.0		18.0	morning-consult-25644	Morning Consult	2016-09-22	2016-09-24		Likely Voters	1712	2.0	Internet	Nonpartisan	None
+49.0	45.0	3.0	4.0	mcclatchy-marist-25630	McClatchy/Marist	2016-09-15	2016-09-20	If November's election for Congress were held today, which party's candidate are you more likely to vote for in your district:	Registered Voters	1094	3.0	Live Phone	Nonpartisan	None
+43.0	36.0	4.0	17.0	yougov-economist-25587	YouGov/Economist	2016-09-18	2016-09-19		Adults	1300	3.9	Internet	Nonpartisan	None
+39.0	40.0	5.0	15.0	ipsos-reuters-25593	Ipsos/Reuters	2016-09-15	2016-09-19	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1111	3.4	Internet	Nonpartisan	None
+45.0	40.0		16.0	morning-consult-25522	Morning Consult	2016-09-15	2016-09-16		Likely Voters	1639	2.0	Internet	Nonpartisan	None
+44.0	38.0	3.0	15.0	yougov-economist-25487	YouGov/Economist	2016-09-10	2016-09-13		Registered Voters	1085		Internet	Nonpartisan	None
+40.0	38.0	5.0	17.0	ipsos-reuters-25486	Ipsos/Reuters	2016-09-08	2016-09-12	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1127		Internet	Nonpartisan	None
+44.0	40.0		16.0	morning-consult-25447	Morning Consult	2016-09-06	2016-09-08		Likely Voters	1710	2.0	Internet	Nonpartisan	None
+41.0	38.0	3.0	18.0	yougov-economist-25411	YouGov/Economist	2016-09-04	2016-09-06		Registered Voters	1073	4.7	Internet	Nonpartisan	None
+40.0	39.0	4.0	18.0	ipsos-reuters-25441	Ipsos/Reuters	2016-09-01	2016-09-05	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1084		Internet	Nonpartisan	None
+47.0	49.0	2.0	2.0	cnn-25436	CNN	2016-09-01	2016-09-04	If the elections for Congress were being held today, which party's candidate would you vote for in your Congressional district?	Likely Voters	786	3.5	Live Phone	Nonpartisan	None
+41.0	38.0		21.0	morning-consult-25336	Morning Consult	2016-09-01	2016-09-02		Registered Voters	2001	2.0	Internet	Nonpartisan	None
+45.0	43.0		13.0	gwu-battleground-25409	GWU/Battleground	2016-08-28	2016-09-01		Likely Voters	1000	3.1	Live Phone	Nonpartisan	None
+42.0	39.0	2.0	17.0	yougov-economist-25297	YouGov/Economist	2016-08-27	2016-08-29		Adults	1112		Internet	Nonpartisan	None
+39.0	37.0	5.0	20.0	ipsos-reuters-25305	Ipsos/Reuters	2016-08-25	2016-08-29	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1404		Internet	Nonpartisan	None
+42.0	39.0		19.0	morning-consult-25276	Morning Consult	2016-08-24	2016-08-26		Registered Voters	2007	2.0	Internet	Nonpartisan	None
+43.0	36.0	3.0	18.0	ipsos-reuters-25260	Ipsos/Reuters	2016-08-20	2016-08-24	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1049		Internet	Nonpartisan	None
+44.0	37.0	3.0	16.0	yougov-economist-25247	YouGov/Economist	2016-08-19	2016-08-23		Adults	1075		Internet	Nonpartisan	None
+42.0	37.0		21.0	morning-consult-25218	Morning Consult	2016-08-18	2016-08-20		Registered Voters	2001		Internet	Nonpartisan	None
+40.0	39.0	3.0	17.0	ipsos-reuters-25213	Ipsos/Reuters	2016-08-13	2016-08-17	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1049		Internet	Nonpartisan	None
+44.0	35.0	3.0	18.0	yougov-economist-25194	YouGov/Economist	2016-08-14	2016-08-16		Adults	1073	4.1	Internet	Nonpartisan	None
+48.0	41.0	2.0	8.0	normington-petts-associates-d-end-citizens-united-25217	Normington, Petts & Associates (D-End Citizens United)	2016-08-09	2016-08-15	If the election for U.S. Congress were held today, for whom would you vote the DEMOCRATIC candidate or the REPUBLICAN candidate?	Likely Voters	1000	3.1	Live Phone	Sponsor	Dem
+43.0	37.0		19.0	morning-consult-25179	Morning Consult	2016-08-11	2016-08-14		Registered Voters	2001	2.0	Internet	Nonpartisan	None
+41.0	35.0	4.0	20.0	ipsos-reuters-25129	Ipsos/Reuters	2016-08-06	2016-08-10	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	974		Internet	Nonpartisan	None
+41.0	39.0	3.0	18.0	yougov-economist-25107	YouGov/Economist	2016-08-06	2016-08-09		Registered Voters	1026		Internet	Nonpartisan	None
+44.0	36.0		20.0	morning-consult-25078	Morning Consult	2016-08-04	2016-08-05		Registered Voters	2001	2.0	Internet	Nonpartisan	None
+49.0	41.0	3.0	7.0	mcclatchy-marist-25067	McClatchy/Marist	2016-08-01	2016-08-03	If November's election for Congress were held today, which party's candidate are you more likely to vote for in your district:	Registered Voters	983	3.1	Live Phone	Nonpartisan	None
+40.0	37.0	4.0	19.0	ipsos-reuters-25063	Ipsos/Reuters	2016-07-30	2016-08-03	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1072		Internet	Nonpartisan	None
+44.0	36.0	2.0	17.0	yougov-economist-25040	YouGov/Economist	2016-07-30	2016-08-01		Registered Voters	1063	4.1	Internet	Nonpartisan	None
+43.0	38.0		20.0	morning-consult-25023	Morning Consult	2016-07-29	2016-07-30		Registered Voters	1931	2.0	Internet	Nonpartisan	None
+47.0	44.0		9.0	ppp-d-25022	PPP (D)	2016-07-29	2016-07-30	Generally speaking if there was an election for Congress today, would you vote for the Democratic or Republican candidate from your district?	Likely Voters	1276	2.7	IVR/Online	Pollster	Dem
+38.0	37.0	3.0	21.0	ipsos-reuters-25002	Ipsos/Reuters	2016-07-25	2016-07-29	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Likely Voters	1433		Internet	Nonpartisan	None
+41.0	39.0	4.0	16.0	yougov-economist-24962	YouGov/Economist	2016-07-23	2016-07-24	If the election for Congress were being held today, and you had to make a choice, would you be voting for...	Registered Voters	1057		Internet	Nonpartisan	None
+41.0	38.0		21.0	morning-consult-24954	Morning Consult	2016-07-22	2016-07-24		Registered Voters	2502	2.0	Internet	Nonpartisan	None
+45.0	34.0	4.0	17.0	ipsos-reuters-24949	Ipsos/Reuters	2016-07-16	2016-07-20	In 2016, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate for U.S. Congress in your district where you live?	Registered Voters	1232		Internet	Nonpartisan	None
+43.0	36.0	3.0	18.0	yougov-economist-24925	YouGov/Economist	2016-07-15	2016-07-17	If the election for Congress were being held today, and you had to make a choice, would you be voting for...	Registered Voters			Internet	Nonpartisan	None
+44.0	37.0		19.0	morning-consult-24914	Morning Consult	2016-07-14	2016-07-16		Registered Voters	2002	2.0	Internet	Nonpartisan	None
+43.0	36.0	3.0	18.0	yougov-economist-24874	YouGov/Economist	2016-07-09	2016-07-11		Registered Voters	1041		Internet	Nonpartisan	None
+44.0	36.0		20.0	morning-consult-24853	Morning Consult	2016-07-08	2016-07-10		Registered Voters	2001	2.0	Internet	Nonpartisan	None
+46.0	35.0	5.0	15.0	ipsos-reuters-24829	Ipsos/Reuters	2016-07-02	2016-07-06		Registered Voters	1345		Internet	Nonpartisan	None
+45.0	36.0	3.0	16.0	yougov-economist-24823	YouGov/Economist	2016-07-02	2016-07-04		Registered Voters	998		Internet	Nonpartisan	None
+43.0	37.0		20.0	morning-consult-24822	Morning Consult	2016-06-30	2016-07-04		Registered Voters	2001	2.0	Internet	Nonpartisan	None
+44.0	33.0	6.0	15.0	ipsos-reuters-24802	Ipsos/Reuters	2016-06-25	2016-06-29		Registered Voters	1247		Internet	Nonpartisan	None
+46.0	41.0		11.0	fox-24803	FOX	2016-06-26	2016-06-28		Registered Voters	1017	3.0	Live Phone	Nonpartisan	None
+49.0	41.0	2.0	8.0	gqr-d-democracy-corps-24835	GQR (D-Democracy Corps)	2016-06-23	2016-06-28		Likely Voters	900	3.27	Live Phone	Sponsor	Dem
+42.0	36.0	4.0	19.0	yougov-economist-24795	YouGov/Economist	2016-06-24	2016-06-27		Registered Voters	1063		Internet	Nonpartisan	None
+46.0	46.0		8.0	nbc-wsj-24784	NBC/WSJ	2016-06-19	2016-06-23		Registered Voters	1000	3.1	Live Phone	Nonpartisan	None
+47.0	33.0	5.0	12.0	ipsos-reuters-24752	Ipsos/Reuters	2016-06-18	2016-06-22		Registered Voters	1339		Internet	Nonpartisan	None
+44.0	33.0	6.0	15.0	ipsos-reuters-24692	Ipsos/Reuters	2016-06-11	2016-06-15		Registered Voters	1323		Internet	Nonpartisan	None
+45.0	45.0	0.0	6.0	abc-post-24526	ABC/Post	2016-05-16	2016-05-19		Registered Voters	829	3.5	Live Phone	Nonpartisan	None
+46.0	42.0		13.0	mclaughlin-r-24510	McLaughlin (R)	2016-05-11	2016-05-16		Likely Voters	1000	3.1	Internet	Pollster	Rep
+46.0	41.0		13.0	gwu-battleground-24342	GWU/Battleground	2016-04-17	2016-04-20		Likely Voters	1000	3.1	Live Phone	Nonpartisan	None
+47.0	45.0		8.0	nbc-wsj-24305	NBC/WSJ	2016-04-10	2016-04-14		Registered Voters	1000	3.1	Live Phone	Nonpartisan	None
+43.0	43.0		13.0	ppp-d-24178	PPP (D)	2016-03-24	2016-03-26		Likely Voters	1083	3.0	IVR/Online	Pollster	Dem
+47.0	41.0		12.0	ppp-d-23727	PPP (D)	2016-02-02	2016-02-03		Likely Voters	1236		IVR/Online	Pollster	Dem
+43.0	43.0		14.0	ppp-d-23396	PPP (D)	2015-12-16	2015-12-17		Likely Voters	1267	2.8	IVR/Online	Pollster	Dem
+45.0	45.0		10.0	nbc-wsj-23071	NBC/WSJ	2015-10-25	2015-10-29		Adults	1000	3.0	Live Phone	Nonpartisan	None
+43.0	43.0		14.0	ppp-d-22867	PPP (D)	2015-10-01	2015-10-04		Likely Voters	1338	2.7	IVR/Online	Pollster	Dem
+37.0	39.0	3.0	20.0	quinnipiac-22459	Quinnipiac	2015-07-23	2015-07-28		Registered Voters	1644	2.4	Live Phone	Nonpartisan	None
+39.0	36.0	2.0	22.0	quinnipiac-22181	Quinnipiac	2015-05-19	2015-05-26		Registered Voters	1711	2.4	Live Phone	Nonpartisan	None
+38.0	38.0	5.0	18.0	rasmussen-22142	Rasmussen	2015-05-10	2015-05-14		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+38.0	38.0	6.0	18.0	rasmussen-22141	Rasmussen	2015-05-03	2015-05-07		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+38.0	40.0	6.0	17.0	rasmussen-22107	Rasmussen	2015-04-26	2015-04-30		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+38.0	39.0	5.0	17.0	rasmussen-22063	Rasmussen	2015-04-19	2015-04-23		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+37.0	40.0	2.0	20.0	quinnipiac-22066	Quinnipiac	2015-04-16	2015-04-21		Registered Voters	1353	2.7	Live Phone	Nonpartisan	None
+39.0	39.0	6.0	17.0	rasmussen-22040	Rasmussen	2015-04-12	2015-04-16		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+37.0	40.0	5.0	18.0	rasmussen-22000	Rasmussen	2015-04-05	2015-04-09		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+36.0	40.0	6.0	17.0	rasmussen-22002	Rasmussen	2015-03-29	2015-04-02		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+38.0	39.0	6.0	18.0	rasmussen-21956	Rasmussen	2015-03-22	2015-03-26		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+39.0	39.0	6.0	16.0	rasmussen-21905	Rasmussen	2015-03-15	2015-03-19		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+38.0	39.0	5.0	18.0	rasmussen-24202	Rasmussen	2015-03-08	2015-03-12		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+36.0	41.0	6.0	16.0	rasmussen-21851	Rasmussen	2015-03-01	2015-03-05		Likely Voters	2500	2.0	IVR/Online	Nonpartisan	None
+39.0	39.0	6.0	16.0	rasmussen-21813	Rasmussen	2015-02-23	2015-03-01		Likely Voters	2800	2.0	IVR/Online	Nonpartisan	None
+39.0	38.0	6.0	16.0	rasmussen-21786	Rasmussen	2015-02-16	2015-02-22		Likely Voters	2800	2.0	IVR/Online	Nonpartisan	None
+38.0	39.0	6.0	17.0	rasmussen-21755	Rasmussen	2015-02-08	2015-02-15		Likely Voters	2800	2.0	IVR/Online	Nonpartisan	None
+39.0	40.0	5.0	16.0	rasmussen-21717	Rasmussen	2015-02-02	2015-02-08		Likely Voters	2800	2.0	IVR/Online	Nonpartisan	None
+40.0	38.0	5.0	17.0	rasmussen-21688	Rasmussen	2015-01-26	2015-02-01		Likely Voters	2800	2.0	IVR/Online	Nonpartisan	None
+40.0	37.0	6.0	17.0	rasmussen-21656	Rasmussen	2015-01-19	2015-01-25		Likely Voters	2800	2.0	IVR/Online	Nonpartisan	None
+39.0	38.0	6.0	18.0	rasmussen-21643	Rasmussen	2015-01-12	2015-01-18		Likely Voters	2800	2.0	IVR/Online	Nonpartisan	None
+38.0	38.0	7.0	16.0	rasmussen-21600	Rasmussen	2015-01-05	2015-01-11		Likely Voters	3500	2.0	IVR/Online	Nonpartisan	None
+40.0	38.0	7.0	16.0	rasmussen-21574	Rasmussen	2014-12-29	2015-01-04		Likely Voters	3500	2.0	IVR/Online	Nonpartisan	None
+39.0	39.0	6.0	16.0	rasmussen-21558	Rasmussen	2014-12-22	2014-12-28		Likely Voters	3500	2.0	IVR/Online	Nonpartisan	None
+39.0	40.0	6.0	15.0	rasmussen-21555	Rasmussen	2014-12-15	2014-12-21		Likely Voters	3500	2.0	IVR/Online	Nonpartisan	None
+37.0	40.0	6.0	17.0	rasmussen-21553	Rasmussen	2014-12-08	2014-12-14		Likely Voters	3500	2.0	IVR/Online	Nonpartisan	None
+40.0	39.0	5.0	16.0	rasmussen-21515	Rasmussen	2014-12-01	2014-12-07		Likely Voters	3500	2.0	IVR/Online	Nonpartisan	None
+40.0	41.0	5.0	15.0	rasmussen-21478	Rasmussen	2014-11-24	2014-11-30		Likely Voters	3500	2.0	IVR/Online	Nonpartisan	None
+39.0	43.0	5.0	14.0	rasmussen-21477	Rasmussen	2014-11-17	2014-11-23		Likely Voters	3500	2.0	IVR/Online	Nonpartisan	None
+41.0	41.0	5.0	13.0	rasmussen-21474	Rasmussen	2014-11-10	2014-11-16		Likely Voters	3500	2.0	IVR/Online	Nonpartisan	None
