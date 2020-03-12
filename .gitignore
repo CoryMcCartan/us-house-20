@@ -2,6 +2,8 @@
 *.tmp
 *.bak
 *.swp
+*.rdata
+*.Rproj
 .DS_Store
 .Rhistory
 site/node_modules/
