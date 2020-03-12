@@ -115,7 +115,7 @@ prior_model = get_prior_m(prior_model_path, results, opt$recompile)
 post_final = posterior_predict(prior_model, newdata=results_20)[,1]
 
 intent_d = select(polls, -date) %>%
-    compose_data(.n_name=n_prefix("N"), W = .$n_weeks[1],
+    compose_data(.n_name=n_prefix("N"), W = .$n_weeks[1] + 1,
                  prior_final_mean = mean(post_final),
                  prior_final_sd = 2*sd(post_final)/4, # arb. inflation for model misspec.
                  prior_natl_poll_error = 4*0.011/2, # pew number adjusted for other errors
@@ -181,12 +181,21 @@ entry = tibble(
 )
 entry = mutate_if(entry, is.numeric, ~ round(., 4))
 
+intent_tbl = draws %>%
+    group_by(week) %>%
+    summarize(i_exp = median(natl_dem),
+              i_q05 = quantile(natl_dem, 0.05),
+              i_q25 = quantile(natl_dem, 0.25),
+              i_q75 = quantile(natl_dem, 0.75),
+              i_q95 = quantile(natl_dem, 0.95)) %>%
+    mutate(date = election_day - 7*week)
 output = append(as.list(entry), list(
     time = Sys.time(),
     n_polls = nrow(polls),
     gain = entry$s_exp - current_seats,
+    intent = intent_tbl,
     firm_effects = as.list(firms),
-    hist=map_int(entry$s_min:entry$s_max, ~ sum(seats == .))
+    hist = map_int(entry$s_min:entry$s_max, ~ sum(seats == .))
 ))
 
 with(output, cat(glue("
