@@ -136,11 +136,14 @@ intent_fit = sampling(intent_model, data=intent_d, chains=opt$chains, iter=opt$i
 draws = recover_types(intent_fit) %>%
     spread_draws(natl_dem[week])
 
+firm_ct = polls %>%
+    group_by(firm) %>%
+    summarize(n=n())
 firms = recover_types(intent_fit, polls) %>%
     spread_draws(house_effects[firm]) %>%
     group_by(firm) %>%
-    summarize(firm_effect = median(house_effects)) %>%
-    deframe
+    summarize(effect = median(house_effects)) %>%
+    left_join(firm_ct, by="firm")
 
 ###
 ### Estimate distribution of seats
@@ -197,7 +200,7 @@ output = append(as.list(entry), list(
     n_polls = nrow(polls),
     gain = entry$s_exp - current_seats,
     intent = intent_tbl,
-    firm_effects = as.list(firms),
+    firm_effects = firms,
     hist = map_int(entry$s_min:entry$s_max, ~ sum(seats == .))
 ))
 
