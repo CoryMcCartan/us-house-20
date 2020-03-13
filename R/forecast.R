@@ -51,7 +51,7 @@ intent_model_path = file.path(opt$model_dir, "intent-model")
 results_model_path = file.path(opt$model_dir, "results-model")
 prior_model_path = file.path(opt$model_dir, "prior-model")
 
-current_seats = 232
+current_seats = 235
 election_day = as.Date("2020-11-03")
 
 
