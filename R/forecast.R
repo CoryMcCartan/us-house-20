@@ -23,7 +23,7 @@ option_list = list(
     make_option("--chains", type="integer", default=2,
                 help="Number of MCMC chains for voter intent estimation."),
     make_option("--recompile", action="store_true", default=F,
-            help="Force recompile of STAN model."),
+                help="Force recompile of STAN model."),
     make_option("--model_dir", type="character", default="stan",
                 help="The directory in which the models are stored"),
     make_option("--output_file", type="character", default="docs/estimate.json",
