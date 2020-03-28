@@ -64,12 +64,18 @@ source("R/polls.R")
 appr_url = "https://projects.fivethirtyeight.com/trump-approval-data/approval_polllist.csv"
 
 # generic ballot
+old_polls = suppressMessages(read_csv("docs/polls.csv", col_types="cilcd"))
 polls = load_polls(start_date, election_day, write=T) %>%
     filter(date <= from_date) %>%
     drop_na
 polls %>%
     select(date, firm, dem) %>%
     write_csv("docs/polls.csv")
+if (all.equal(old_polls, select(polls, date, firm, dem))) {
+    cat("No new polls.\n")
+    system("osascript -e beep"); system("osascript -e beep")
+    Sys.sleep(10)
+}
 # pres. approval
 pres_appr = suppressMessages(read_csv(appr_url)) %>%
     transmute(approval = approve/100,
