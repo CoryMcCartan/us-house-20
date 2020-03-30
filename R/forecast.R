@@ -64,15 +64,17 @@ source("R/polls.R")
 appr_url = "https://projects.fivethirtyeight.com/trump-approval-data/approval_polllist.csv"
 
 # generic ballot
-old_polls = suppressMessages(read_csv("docs/polls.csv", col_types="cilcd"))
+old_polls = suppressMessages(read_csv("docs/polls.csv", col_types="Dcd"))
 polls = load_polls(start_date, election_day, write=T) %>%
     filter(date <= from_date) %>%
     drop_na
 polls %>%
     select(date, firm, dem) %>%
     write_csv("docs/polls.csv")
-if (all.equal(old_polls, select(polls, date, firm, dem))) {
+if ((from_date == Sys.Date()) &&
+        all.equal(old_polls, select(polls, date, firm, dem))) {
     cat("No new polls.\n")
+    system("osascript -e 'display notification \"No new polls.\" with title \"House Model\"'")
     system("osascript -e beep"); system("osascript -e beep")
     Sys.sleep(10)
 }
@@ -227,6 +229,7 @@ with(output, cat(glue("
     ===========================================
     ")))
 cat("\n\n")
+system("osascript -e 'display notification \"Model run complete.\" with title \"House Model\"'")
 
 if (opt$dry) quit("no")
 

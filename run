@@ -1,5 +1,2 @@
 trap "exit" INT
-Rscript R/forecast.R
-git add .
-git commit -m "Run."
-git push
+Rscript R/forecast.R && git add . && git commit -m "Run." && git push
