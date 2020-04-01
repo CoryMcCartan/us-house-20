@@ -71,8 +71,8 @@ polls = load_polls(start_date, election_day, write=T) %>%
 polls %>%
     select(date, firm, dem) %>%
     write_csv("docs/polls.csv")
-if ((from_date == Sys.Date()) &&
-        all.equal(old_polls, select(polls, date, firm, dem))) {
+if (from_date == Sys.Date() &&
+        isTRUE(all.equal(old_polls, select(polls, date, firm, dem)))) {
     cat("No new polls.\n")
     system("osascript -e 'display notification \"No new polls.\" with title \"House Model\"'")
     system("osascript -e beep"); system("osascript -e beep")
