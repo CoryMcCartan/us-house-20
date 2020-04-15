@@ -41,6 +41,7 @@ suppressMessages(library(tidyr))
 suppressMessages(library(readr))
 suppressMessages(library(fredr))
 suppressMessages(library(lubridate))
+suppressMessages(library(cli))
 suppressMessages(library(glue))
 suppressMessages(library(jsonlite))
 
@@ -58,7 +59,7 @@ election_day = as.Date("2020-11-03")
 ###
 ### Download new polling data
 ###
-cat("Downloading data.\n")
+cli_h1("Downloading data")
 
 source("R/polls.R")
 appr_url = "https://projects.fivethirtyeight.com/trump-approval-data/approval_polllist.csv"
@@ -78,6 +79,8 @@ if (from_date == Sys.Date() &&
     system("osascript -e beep"); system("osascript -e beep")
     Sys.sleep(10)
 }
+cli_alert_success("{nrow(polls_d)} election poll{?s} downloaded.")
+
 # pres. approval
 pres_appr = suppressMessages(read_csv(appr_url)) %>%
     transmute(approval = approve/100,
@@ -85,6 +88,7 @@ pres_appr = suppressMessages(read_csv(appr_url)) %>%
     tail(20) %>%
     summarize(appr = mean(qlogis(approval))) %>%
     pull
+cli_alert_success("Presidential approval polling downloaded.")
 # economy
 fredr_set_key(Sys.getenv("FRED_KEY"))
 econ_params = list(
@@ -101,6 +105,7 @@ econ = pmap_dfr(econ_params, ~ fredr(.x, observation_start=start_date-365,
               earn = as.numeric(AHETPI) / 100) %>%
     fill(everything()) %>%
     tail(1)
+cli_alert_success("Economic data downloaded.")
 
 # everything
 results = suppressMessages(read_csv("data/combined.csv")) %>%
@@ -115,7 +120,7 @@ results_20 = tibble(year=2020, before=current_seats, pres=-1, house=1, midterm=0
 ### Estimate voter intent
 ###
 
-cat("Estimating voter intent.\n")
+cli_h1("Estimating voter intent")
 
 suppressMessages(library(rstan))
 suppressMessages(library(rstanarm))
@@ -124,6 +129,7 @@ source("R/get_models.R")
 
 prior_model = get_prior_m(prior_model_path, results, opt$recompile)
 post_final = posterior_predict(prior_model, newdata=results_20)[,1]
+cli_alert_success("Prior predictions made.")
 
 intent_d = select(polls, -date) %>%
     compose_data(.n_name=n_prefix("N"), W = .$n_weeks[1] + 1,
@@ -140,6 +146,7 @@ intent_fit = sampling(intent_model, data=intent_d, chains=opt$chains, iter=opt$i
                       pars=c("sigma", "sigma_u", "sd_firm", "bias_rv", "bias_lv",
                              "bias_a", "house_effects", "natl_dem"),
                       control=list(adapt_delta=0.99, max_treedepth=15))
+cli_alert_success("Model successfully fit.")
 
 draws = recover_types(intent_fit) %>%
     spread_draws(natl_dem[week])
@@ -171,9 +178,13 @@ seats = posterior_predict(results_model, newdata=inf_data, draws=10) %>%
     as.numeric %>%
     round
 
+cli_alert_success("Seat predictions made.")
+
 ###
 ### Output predictions
 ###
+
+cli_h1("Saving predictions")
 
 entry = tibble(
     date = from_date,
@@ -211,6 +222,8 @@ output = append(as.list(entry), list(
     firm_effects = firms,
     hist = map_int(entry$s_min:entry$s_max, ~ sum(seats == .))
 ))
+
+cli_alert_success("Outputs prepared.")
 
 with(output, cat(glue("
     ===========================================
@@ -250,3 +263,6 @@ write_csv(history, opt$history_file, na="")
 # only save full output if current run
 if (from_date != Sys.Date()) quit("no")
 write_json(output, opt$output_file, auto_unbox=T, digits=7)
+
+cli_alert_success("Model outputs saved.")
+cat("\n")
