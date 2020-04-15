@@ -79,7 +79,7 @@ if (from_date == Sys.Date() &&
     system("osascript -e beep"); system("osascript -e beep")
     Sys.sleep(10)
 }
-cli_alert_success("{nrow(polls_d)} election poll{?s} downloaded.")
+cli_alert_success("{nrow(polls)} election poll{?s} downloaded.")
 
 # pres. approval
 pres_appr = suppressMessages(read_csv(appr_url)) %>%
